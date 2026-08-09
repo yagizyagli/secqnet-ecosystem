@@ -1,16 +1,13 @@
-# <p align="center">🛡️ SecQNet Ecosystem</p>
-<p align="center">
-  <img src="https://shields.io" alt="Architecture">
-  <img src="https://shields.io" alt="Qiskit">
-  <img src="https://shields.io" alt="PQC">
-  <img src="https://shields.io" alt="MIT">
-</p>
+# SecQNet Ecosystem 🛡️
 
-<p align="center">
-  <b>SecQNet</b> is a production-grade, enterprise full-stack framework that bridges the gap between <b>Post-Quantum Cryptography (PQC)</b> and <b>Quantum Machine Learning (QML)</b> into a unified, high-performance execution pipeline.
-</p>
+**[ Architecture: Senior-Level ]** | **[ Quantum Engine: IBM Qiskit 1.0+ ]** | **[ Security: Post-Quantum NIST ]** | **[ License: MIT ]**
 
 ---
+
+SecQNet is a production-grade, enterprise full-stack framework that bridges the gap between **Post-Quantum Cryptography (PQC)** and **Quantum Machine Learning (QML)** into a unified, high-performance execution pipeline.
+
+---
+
 
 ## 🗺️ Architectural Workflow
 
@@ -31,7 +28,7 @@
 ┌─────────────────────────┐
 │  Qiskit Aer Simulator   │ ──► Native Hardware Transpilation & Optimization
 └─────────────────────────┘ ──► Scalable deployment to real IBM Quantum Processors
-```
+
 
 ---
 
