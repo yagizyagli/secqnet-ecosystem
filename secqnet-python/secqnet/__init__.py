@@ -1,7 +1,12 @@
+"""
+SecQNet: An enterprise full-stack library uniting 
+Post-Quantum Cryptography (PQC) and Quantum Machine Learning (QML).
+"""
+
 import os
 import numpy as np
-from .pqc.lattice_enc import PQCSecureLayer
-from .qml.qnn import SecQuantumNeuralNetwork
+from .pqc import PQCSecureLayer
+from .qml import SecQuantumNeuralNetwork
 
 class SecQNetApp:
     """Post-Quantum Cryptography Secure Layer and IBM Qiskit ML Core Orchestration"""
@@ -15,7 +20,7 @@ class SecQNetApp:
         peer_key = os.urandom(32)
         shared_secret, _ = self.security.encapsulate_key(peer_key)
         ciphertext, iv, _ = self.security.encrypt_payload(raw_sensitive_data.encode(), shared_secret)
-        print(f"[PQC GÜVENLİK] Payload protected with quantum-resistant encryption. Cipher: {ciphertext.hex()[:15]}...")
+        print(f"[PQC SECURITY] Payload protected with quantum-resistant encryption. Cipher: {ciphertext.hex()[:15]}...")
 
         # Phase 2: Quantum Machine Learning Estimation
         print("[QML PIPELINE] Forwarding secure telemetry data vectors into the QNN...")
