@@ -1,0 +1,28 @@
+{
+  "name": "secqnet",
+  "version": "1.0.0",
+  "description": "Production-ready SDK for Secure Quantum Network & Machine Learning Library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quantum",
+    "post-quantum",
+    "pqc",
+    "machine-learning",
+    "qml",
+    "qiskit",
+    "cryptography"
+  ],
+  "author": "SecQNet Developer Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
