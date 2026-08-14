@@ -109,7 +109,7 @@ If you find this framework useful, or if you are passionate about the future of 
 
 ## 👨‍💻 Author & Maintainer
 
-*   **Your Name / Team Name** - *Founder & Lead Architect* - [@yagizyagli](https://github.com/yagizyagli)
-*   *With a dedicated 15-hour daily engineering routine, building the secure infrastructure for the upcoming quantum revolution (Y2Q).*
+*   Yağız Yağlı [@yagizyagli](https://github.com/yagizyagli)
+*   Repo (https://github.com/yagizyagli/secqnet-ecosystem)
 
 Feel free to reach out via GitHub Issues for enterprise collaborations, feature requests, or deep-tech research inquiries.
