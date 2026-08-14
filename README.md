@@ -50,7 +50,7 @@ Isolates complex, high-latency quantum tensors inside an asynchronous **Python F
 ### 1. Launch the Python Quantum Compute Engine
 Navigate to the core service, compile your local environment, and bootstrap the native Qiskit API server:
 
-```bash
+
 cd secqnet-python
 pip install -r requirements.txt
 python main.py
