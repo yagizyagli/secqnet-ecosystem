@@ -109,7 +109,7 @@ If you find this framework useful, or if you are passionate about the future of 
 
 ## 👨‍💻 Author & Maintainer
 
-*   Yağız Yağlı [@yagizyagli](https://github.com/yagizyagli)
-*   Repo (https://github.com/yagizyagli/secqnet-ecosystem)
+*   Yağız Yağlı:[@yagizyagli](https://github.com/yagizyagli)
+*   Repo:[secqnet-ecosystem](https://github.com/yagizyagli/secqnet-ecosystem)
 
 Feel free to reach out via GitHub Issues for enterprise collaborations, feature requests, or deep-tech research inquiries.
